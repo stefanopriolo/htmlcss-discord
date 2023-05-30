@@ -11,7 +11,8 @@ body {
 }
 
 header {
-  background-color: #add8e6;
+  background-image: url(../img/jumbo.png);
+  background-size:cover;
   padding-top: 1rem;
   padding-bottom: 4px;
 }
@@ -40,7 +41,11 @@ footer {
 }
 
 .bg-yellow {
-  background-color: #daa520;
+  /* background-color: #daa520; */
+}
+
+.logo {
+    max-width: 60%;
 }
 
 .bg-grey {
@@ -73,15 +78,24 @@ footer {
   display: inline-block;
   padding: 0 0.3rem;
   text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 255);
+  margin-left: 20px;
+  font-size: 13px;
 }
 
 .nav-login {
   text-align: right;
 }
 
+.btn {
+    border-radius: 30%;
+    border: none;
+    padding: 7px;
+}
+
+
 .hero-section {
-  background-color: #00008b;
+  /* background-color: #00008b; */
   padding: 2rem 0;
 }
 
