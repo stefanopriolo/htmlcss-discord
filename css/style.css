@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  /* font-size: 20px; */
+}
+
+header {
+  background-color: #add8e6;
+  padding-top: 1rem;
+  padding-bottom: 4px;
+}
+
+header nav {
+  margin-bottom: 1rem;
+}
+
+header nav .container {
+  display: flex;
+}
+
+section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+footer {
+  background-color: #23272a;
+  padding-top: 6px;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.bg-yellow {
+  background-color: #daa520;
+}
+
+.bg-grey {
+  background-color: #d3d3d3;
+}
+
+.nav-links,
+.nav-logo,
+.nav-login {
+  border: 1px dashed black;
+  padding: 0.5rem;
+}
+
+.nav-logo,
+.nav-login {
+  min-width: 150px;
+}
+
+.nav-links {
+  flex-grow: 1;
+}
+
+.nav-links ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-links ul a {
+  display: inline-block;
+  padding: 0 0.3rem;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-login {
+  text-align: right;
+}
+
+.hero-section {
+  background-color: #00008b;
+  padding: 2rem 0;
+}
+
+.hero-section .container {
+  max-width: 680px;
+  border: 1px dashed black;
+  min-height: 300px;
+  background-color: #ee82ee;
+}
+
+.row {
+  display: flex;
+}
+
+.col-large,
+.col-small {
+  border: 1px dashed black;
+  min-height: 300px;
+}
+
+.col-large {
+  width: 60%;
+  background-color: #1e90ff;
+}
+
+.col-small {
+  width: 40%;
+  background-color: #ffc0cb;
+}
+
+.box-green {
+  border: 1px dashed black;
+  min-height: 500px;
+  background-color: #228b22;
+}
+
+footer .col {
+  border: 1px dashed white;
+  flex-grow: 1;
+  background-color: #20b2aa;
+  min-height: 300px;
+}
+
+footer .col-large {
+  width: 15%;
+  background-color: #f08080;
+  border-color: black;
+}
+
+footer hr {
+  margin-top: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.secondary-footer {
+  background-color: #7fffd4;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-logo,
+.footer-btn {
+  border: 1px dashed black;
+  padding: 0.5rem;
+  background-color: #FFB6C1;
+}
