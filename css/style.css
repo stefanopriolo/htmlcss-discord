@@ -145,12 +145,28 @@ footer {
 
 .col-large {
   width: 60%;
-  background-color: #1e90ff;
+  /* background-color: #1e90ff; */
+}
+
+.img_studygroup {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.text_studygroup {
+    font-size: 35px;
+    color: #131313; 
+    padding-bottom: 30px;
+}
+
+.smalltext_studygroup {
+    line-height: 25px;
 }
 
 .col-small {
   width: 40%;
-  background-color: #ffc0cb;
+  padding: 30px;
+  /* background-color: #ffc0cb; */
 }
 
 .box-green {
