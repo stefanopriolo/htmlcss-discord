@@ -148,18 +148,18 @@ footer {
   /* background-color: #1e90ff; */
 }
 
-.img_studygroup {
+.img {
     width: 100%;
     margin: 0 auto;
 }
 
-.text_studygroup {
+.title_section {
     font-size: 35px;
     color: #131313; 
     padding-bottom: 30px;
 }
 
-.smalltext_studygroup {
+.smalltext_section {
     line-height: 25px;
 }
 
