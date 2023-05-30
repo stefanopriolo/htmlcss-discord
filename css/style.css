@@ -55,7 +55,7 @@ footer {
 .nav-links,
 .nav-logo,
 .nav-login {
-  border: 1px dashed black;
+  /* border: 1px dashed black; */
   padding: 0.5rem;
 }
 
@@ -114,7 +114,7 @@ footer {
 
 .hero-section .container {
   max-width: 680px;
-  border: 1px dashed black;
+  /* border: 1px dashed black; */
   min-height: 300px;
   text-align: center;
   
@@ -139,7 +139,7 @@ footer {
 
 .col-large,
 .col-small {
-  border: 1px dashed black;
+  /* border: 1px dashed black; */
   min-height: 300px;
 }
 
@@ -172,7 +172,21 @@ footer {
 .box-green {
   border: 1px dashed black;
   min-height: 500px;
-  background-color: #228b22;
+  text-align: center;
+  /* background-color: #228b22; */
+}
+
+.text_call {
+    padding: 20px;
+    background-image: url(../img/stars.svg);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position:top;
+}
+
+.btn_last {
+    color: white;
+    background-color: #7289da;
 }
 
 footer .col {
